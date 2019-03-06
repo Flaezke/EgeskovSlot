@@ -1,0 +1,419 @@
+*{margin:0;
+ padding:0;
+}
+html, p{
+    font-size: 15px;
+font-family: 'Hind Siliguri', sans-serif;
+}
+
+p{color:#E8E5CC;
+    line-height: 1.5;
+}
+
+
+h1, h2{font-size: 25px;
+    color:#E8E5CC;
+font-family: 'Srisakdi', cursive;}
+
+.imagen {
+    width:50%;
+    height:50vh;
+}
+
+.container{
+    border-width: 50%;
+}
+/*header*/
+#home{
+    width:100%;
+    height:100vh;
+    background: url("hej.jpg") bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+/*info*/
+#home1{
+    width:100%;
+    height:50vh;
+    background: url("hej.jpg") bottom no-repeat;
+   }
+
+/*header - nav*/
+.nav{
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    background-color:#697A5B;
+}
+.nav li a:hover{  
+    box-shadow: 1px 1px 1px;
+  transition-duration: 0.4s;}
+
+.nav li{display: inline; 
+     
+}
+
+.nav a{
+    display: inline-block; font-variant-caps: petite-caps;
+     font-size: 20px;
+      color:#E8E5CC;
+    padding:10px;
+    text-decoration: none;
+
+}
+
+.nav ul{text-align: center;
+    
+}
+
+/*header - Main text*/
+.main-text{
+    
+
+    line-height:0;
+    margin:auto;
+    color:#E8E5CC;
+    user-select: none;
+}
+
+.main-text h1{
+    font-size:5rem;
+    margin-bottom:5rem;
+}
+
+.main-text h2{
+    font-family: "Calibri";
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-right:-5px;
+    font-size: 1rem;
+    line-height:2;
+    position:relative;
+    text-align: center;
+}
+
+
+/*Section - praktisk*/
+
+#praktiskid{
+    float:right;
+    background-color: #697A5B;
+    width:50%;
+    text-align: center;
+    height:50vh;
+}
+
+#praktiskid h2
+{padding-top:5%;
+font-family: 'Srisakdi', cursive;}
+#praktiskid p{padding-top:15%;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom: 5%;
+    text-align:left;
+}
+
+#praktiskid a{
+    text-decoration: none;
+    color: #E8E5CC;
+    
+}
+
+#praktiskf{
+    float:left;
+}
+/*Section - our-menu*/
+
+#menu{
+    width:100%;
+    background: url(egeskovpl.JPG);
+    height:90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*Section - who-we-are*/
+
+.who-we-are{margin-bottom: -7px;}
+
+#weare{
+    
+    float:left;
+    background-color: #697A5B;
+    width:50%;
+    text-align: center;
+    height:50vh;
+
+   
+}
+
+#weare h2{
+    
+    font-family: 'Srisakdi', cursive;
+    padding-top:5%;
+}
+#weare p{
+    padding-top:13%;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom: 5%;
+    text-align:left;
+}
+
+#weare a{
+    text-decoration: none;
+    color:#E8E5CC;
+    
+}
+#whop{
+    height:50vh;
+    float:right;
+}
+
+/*section - */
+#hej {
+    float:right;
+    height:50vh;
+}
+
+#karl {float:left;
+    background-color: #697A5B;
+    width:50%;
+    text-align: center;
+    height:50vh;}
+
+#karl h2{padding-top:5%;
+}
+
+#karl p{
+    padding-top: 15%;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:5%;
+    text-align: left
+}
+
+#karl a{text-decoration: none;
+color: #E8E5CC;
+}
+/*Section - calender*/
+#date{ 
+    float:right;
+    background-color: #697A5B;
+    width:50%;
+    text-align: center;
+    height:50vh;}
+#date h2{padding-top:5%;}
+#date p{padding-top: 15%;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:5%;
+    text-align: left}
+
+
+#date a{text-decoration: none;
+color: #E8E5CC;}
+#calenderp {float:left;}
+
+/*Section - book*/
+
+#bookp{float:right;
+height:50vh;
+}
+#bookus{ float:left;
+    background-color: #697A5B;
+    width:50%;
+    text-align: center;
+    height:50vh;}
+
+#bookus h2{padding-top:5%;}
+#bookus p{  padding-top: 15%;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:5%;
+    text-align: left
+}
+
+#bookus a{text-decoration: none;
+color: #E8E5CC;}
+
+/*Section - information */
+.information {
+    background-color: #E8E5CC;
+}
+
+.information h2{
+    color:black;
+    font-family: 'Srisakdi', cursive;
+    padding-top:2%; 
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.information p{
+    color:black;
+    text-align: left;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:3%;
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+/*Section - Billet */
+
+#billetinfo p{padding-left:4%;
+            padding-right:4%;
+text-align: left;}
+#billetinfo{float:left;
+    background-color: #697A5B;
+    height:50vh;
+    width:50%;}
+#billetpics {float:right;
+    height:50vh;
+width:50%;}
+
+#billetinfo h2{
+    color:#E8E5CC;
+    text-align: center;
+    padding-top:2%;
+    padding-bottom:3%;
+}
+
+.billet table{  margin: auto;}
+table{color:#E8E5CC;
+border-collapse: collapse;
+}
+td, th{ border:1px solid grey;
+padding:8px;
+}
+tr:nth-child(even) {background-color:#E8E5CC;
+color:black;}
+
+/*Section - open*/
+.open {
+    background-color:#697A5B;
+    color:#E8E5CC;
+    padding: 5%;
+    height:100vh;
+    }
+
+.open h2{text-align: center;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+.open p{text-align: left;
+        width:70%;
+margin:auto;}
+
+.open table {float:left;
+width:30%; 
+}
+
+.priser1 {background-color:#697A5B;
+    color:#E8E5CC;
+    padding: 5%;
+height:60vh;}
+
+/*Section - info */
+
+.godinfo { width:100%;
+    background: url("hej.jpg") bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    
+    }
+
+.godinfo h2 { 
+        text-align: center;
+        border: 3px solid #E8E5CC;
+        border-radius: 5px;
+        background-color:#E8E5CC;
+        margin-left:25%;
+            margin-right:25%;}
+
+.godinfo p{ 
+        color:black;
+        padding-top:2%;
+        padding-bottom: 1%;
+        margin-bottom: 4%;
+        text-align: left;
+        border: 3px solid #E8E5CC;
+        border-radius: 5px;
+        background-color:#E8E5CC;
+        margin-left:25%;
+        padding-left:4%;
+        padding-right:4%;
+            margin-right:25%;
+}
+
+.godinfo h2 {
+    color:black;margin-top: 4%;
+            padding-top:1%;}
+
+/*div - events */
+.events {text-align: left;
+         padding-top:5%;}
+
+/*div - udstillinger1*/
+.udstillinger1 {
+    text-align: left;
+    color: #E8E5CC;
+    background-color:#697A5B;
+    height:70vh;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+/* Section - header kontakt */
+#homekontakt {
+    background: url(cars.jpg);
+    height:100vh;
+}
+
+/*div - kontakt*/
+.contactbox{
+    padding-top:%;
+    text-align: center;
+    margin:auto;
+    margin-top:10%;
+    width:50%;
+    height:50vh;
+    background-color: #E8E5CC;
+}
+.contactbox h2{
+    color:black;
+    padding-top:20%;}
+
+.contactbox p{color:black;}
+/*Footer*/
+
+footer{
+    background-color: #5d6a51;
+    text-align: center;
+    }
+.footer_kontakt a{
+    display: inline-block;
+    margin-top:2%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom:2%;
+    list-style-type: none;
+    text-decoration: none;
+    font-variant-caps:all-petite-caps;
+    color: #E8E5CC;
+}
